@@ -1,0 +1,100 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.app{
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+nav{
+    font-family: sans-serif;
+    padding: 20px;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    align-items: center;
+    background-color:  #3f51b5;
+    color: white;
+}
+
+.cardContent{
+    width: 100vw;
+    display: flex;
+}
+
+.column{
+    flex: 6;
+}
+
+.columnItem{
+margin-left: 2rem;
+height: 100vh;
+border-right: 2px groove black;
+}
+
+.columnItem h2{
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin: 20px;
+}
+
+.generateinp{
+    margin-top: 3rem;
+    padding: 10px;
+    border:none;
+}
+.generateinp:focus{
+    outline: none;
+    transform: scale(1.02);
+    transition: 0.2s ease-in-out;
+    border-bottom: 1px solid black;
+}
+.generatebtn{
+    padding: 7px;
+    background-color: teal;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.qrcontainer{
+    height: 40vh;
+}
+
+img{
+    margin-top: 4rem;
+    height: 200px;
+    margin-left: 3rem;
+    width: 200px;
+    cursor: pointer;
+}
+
+.qrscan{
+    margin-top: 2rem;
+    padding: 7px;
+    background-color: tomato;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.qrreader{
+    margin-top: 4rem;
+    margin-left: 3rem;
+    padding: 5px;
+    height: 250px;
+    width: 250px;
+    border: 1px solid black;
+    margin-bottom: 3rem;
+}
+
+.scan{
+    font-family: cursive;
+}
